@@ -1,0 +1,8 @@
+{
+  "label": "Module 4: Vision-Language-Action (VLA) for Humanoid Robots",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Explore how language models, perception, and robotics converge to enable humanoid robots to understand commands and act autonomously."
+  }
+}

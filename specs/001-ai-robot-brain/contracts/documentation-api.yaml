@@ -1,0 +1,91 @@
+# Documentation API Contract: AI-Robot Brain Module
+
+## Overview
+This contract defines the structure and access patterns for the AI-Robot Brain module documentation.
+
+## Documentation Structure
+
+### Chapter 1: NVIDIA Isaac Sim
+**Path**: `/docs/ai-robot-brain/nvidia-isaac-sim.md`
+**Title**: "NVIDIA Isaac Sim: Photorealistic Simulation"
+**Content Requirements**:
+- Introduction to Isaac Sim capabilities
+- Photorealistic simulation techniques
+- Synthetic data generation methods
+- Training-ready environment setup
+- Practical examples and use cases
+
+### Chapter 2: Isaac ROS
+**Path**: `/docs/ai-robot-brain/isaac-ros-vslam.md`
+**Title**: "Isaac ROS: Hardware-Accelerated Perception and VSLAM"
+**Content Requirements**:
+- Isaac ROS architecture overview
+- Hardware acceleration concepts
+- Visual SLAM implementation
+- Sensor pipeline acceleration
+- Performance optimization techniques
+
+### Chapter 3: Navigation with Nav2
+**Path**: `/docs/ai-robot-brain/nav2-navigation.md`
+**Title**: "Nav2: Path Planning for Humanoid Robots"
+**Content Requirements**:
+- Nav2 framework overview
+- Path planning algorithms
+- Humanoid navigation specifics
+- Sim-to-real transfer considerations
+- Practical navigation examples
+
+## Metadata Schema
+
+Each documentation file must include the following frontmatter:
+
+```yaml
+---
+title: "Descriptive title for the chapter"
+sidebar_label: "Short label for sidebar"
+description: "Brief description of the chapter content"
+tags: [nvidia, isaac, robotics, simulation, ros]
+---
+```
+
+## Navigation Contract
+
+### Sidebar Integration
+The documentation must be integrated into the Docusaurus sidebar under:
+- Main navigation: "AI-Robot Brain Module"
+- Sub-items:
+  1. "NVIDIA Isaac Sim"
+  2. "Isaac ROS for VSLAM"
+  3. "Nav2 Navigation"
+
+### Cross-References
+Each chapter must include:
+- Links to related concepts in other chapters
+- References to external NVIDIA Isaac documentation
+- Connection points to humanoid robotics concepts
+
+## Quality Requirements
+
+### Content Standards
+- Conceptual focus with minimal code (as specified)
+- Targeted at AI/Robotics students with ROS 2 knowledge
+- Clear explanations of complex concepts
+- Real-world application examples
+
+### Structural Requirements
+- Each chapter should be 1500-3000 words
+- Include diagrams or illustrations where helpful
+- Provide summary sections for key concepts
+- Include practical exercises or thought experiments
+
+## Validation Criteria
+
+### Completeness
+- All functional requirements from spec are addressed
+- Each chapter covers the specified topics
+- Success criteria from spec are met
+
+### Accuracy
+- Technical information aligns with NVIDIA Isaac documentation
+- Concepts are accurately explained
+- Examples are realistic and applicable

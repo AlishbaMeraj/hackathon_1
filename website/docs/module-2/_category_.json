@@ -1,0 +1,8 @@
+{
+  "label": "Module 2: Physics Simulation and Visual Environments",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "This module covers physics simulation with Gazebo, visual environments with Unity, and sensor simulation workflows for humanoid robots. Learn how to create realistic simulation environments for robot development and testing."
+  }
+}

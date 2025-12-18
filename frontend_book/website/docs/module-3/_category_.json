@@ -1,0 +1,8 @@
+{
+  "label": "Module 3: AI and Machine Learning for Humanoid Robots",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Explore AI and machine learning integration with ROS 2 for intelligent humanoid robot behaviors and decision making."
+  }
+}
