@@ -20,15 +20,16 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://hackathon_1.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/hackathon_1/',
+  baseUrl: '/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
-  projectName: 'hackathon_1', // Usually your repo name.
+  // organizationName: 'your-username', // Usually your GitHub org/user name.
+  // projectName: 'hackathon_1', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
